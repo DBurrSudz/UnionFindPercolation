@@ -13,7 +13,7 @@ public class Percolation {
     /** Constructor for the Percolation data type. Creates an n x n 2d array and
      *  initializes all sites to false signifying 'blocked'.
      *
-     * @param n an integer
+     * @param n an integer that represents the size of the matrix.
      */
     public Percolation(int n) {
         source = 0;
